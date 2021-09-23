@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@700&display=swap');
+*{
+	font-family: 'Noto Sans KR', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#root,html,body{
+	height: 100%;
+	width: 100%;
+	/* r g b*/
+	background-color: #E8E2AE;
+	color: #fff;
+	/* ffffff */
+	/* 255 -> ff */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	display: flex;
+	width: 1200px;
+	height: 500px;
+	background-color: #fff;
+}
+.left_panel{
+	width: 53%;
+	height: 100%;
+	color: #bbb;
+
+
+}
+
+.left_panel > img{
+	width: 100%;
+	height: 100%;
+}
+
+.right_panel{
+	width: 53%;
+	height: 100%;
+	color: #bbb;
+
+}
+.right_panel_main{
+	color: #999;
+	width: 400px;
+	height: 300px;
+	margin: 50px auto;
+}
+.right_panel_main input{
+	width: 100%;
+	height: 30x;
+	font-size: 25px;
+}
+.right_panel_main input[type='submit']{
+	width: 100%;
+	height: 35x;
+	font-size: 25px;
+	background-color: #abb39f;
+	color: white;
+	cursor: pointer;
+}
+.right_panel_main > div{
+	margin: 20px 0;
+}
